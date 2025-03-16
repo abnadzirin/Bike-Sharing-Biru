@@ -23,7 +23,7 @@ else:
 st.subheader("Tabel Data Penyewaan Sepeda")
 st.dataframe(filtered_df.head())
 
-# Visualisasi Penyewaan Sepeda Berdasarkan Hari Kerja
+# Visualisasi Penyewaan Sepeda Berdasarkan Hari Kerja dan Hari Libur
 st.subheader("Banyaknya Penyewa Sepeda Pada Hari Kerja dan Hari libur")
 fig, ax = plt.subplots(figsize=(8, 5))
 sns.barplot(
